@@ -1,0 +1,127 @@
+
+Day 1 agenda===================================
+ DevOps
+ git - vcs ??
+ Centrlized vs distributed
+ 
+ 
+ DevOps = people + process + tools
+ 
+ 
+  planning process needs input - operation + buisness + development
+ 
+ Incremental progm example 
+ cycle 
+   frame - 2 weeks 
+   rim - 
+   tyres
+   chain set
+   seat
+   handle
+   brakes - normal , disc
+   
+   vcs - version control system =  scm - source configration magmt
+   
+ coding( Iaac infrastructure as code) - c , c++ , ansible playbooks, terraform code , docker files, k8s manifest , test , build scripts, grafana dashboards, cicd pipelines as code 
+ 
+  all IAC is stored in VCS 
+    
+    devops - k8s , docker , ansible , terrafomr  , jenkins , aws devps , azure
+    
+    SDLC is moved from waterfall ->  agile (scrum / kanban) - devops
+    
+  ============  
+    VCS ?
+    - large codebase
+    - metadata - what , why , when
+    - collaboration cost
+    - workflows / rules - for Peer review
+    - security
+    
+    Examples of VCS
+     - cvs
+     - tfs
+     - bitbucket
+     - github
+     - aws code repos
+     - azure repos
+    
+    Evolution of VCS
+      CVS -> SVN(MS tfs) -> GIT(bitbucket, github , aws code repos, azure repos / TFS)
+        
+    
+    VCS types:-
+    
+    centralized  - svn (TFS) . if my connectivty losses , then I wont be able to make any commit in repo, becasue that repo in central server lost connectivity
+    
+   Workflow  centralized ( tfs)-
+      created branch remote ( connectivity)
+      checkout files required to local ( connectivity)
+      made changes in local
+      commit remote ( connectivity)
+      history / (( connectivity))
+      
+      
+      Workflow distributed (bitbucket, github , aws code repos)
+       - clone repo local ( connectivity)
+       - branch local
+       - commit local
+       - push remote ( connectivity)
+       
+  branching in centrlised VCS - heavy cause it makes copy of the all files in branch irrespective of any code chagne in those files or not
+  
+  distributed - only files with changes are physically object is made. For rest same object are used and referd via linked list
+  
+  
+  1 central server have many repos
+  1 repo can have many branches
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
